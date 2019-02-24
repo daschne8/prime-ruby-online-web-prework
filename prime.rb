@@ -6,7 +6,7 @@ def prime?(number)
     return true
   end
   range = (number / 2).round
-  for i in 0..range do
+  for i in 1..range do
     if number % i == 0
         return false
     end
