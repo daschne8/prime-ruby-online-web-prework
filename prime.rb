@@ -5,9 +5,8 @@ def prime?(number)
   if number == 2
     return true
   end
-  i = 1
   range = (number / 2).round
-  while i <= range do
+  for i in 0..range do
     if number % i == 0
         return false
     end
