@@ -3,7 +3,7 @@ def prime?(number)
     return false
   end
   i = 1
-  range = number / 2
+  range = (number / 2).round
   while i <= range do
     if number % i == 0
         return false
