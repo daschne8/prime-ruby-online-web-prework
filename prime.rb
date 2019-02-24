@@ -1,1 +1,4 @@
-# Add  code here!
+def prime?(number)
+  range = number / 2
+
+end
